@@ -1,0 +1,109 @@
+require:
+  - rubocop-performance
+  - rubocop-rspec
+
+AllCops:
+  Include:
+    - '**/*.rb'
+    - '**/*.gemspec'
+    - '**/Gemfile'
+    - '**/Rakefile'
+  Exclude:
+    - bin/**/*
+    - db/schema.rb
+    - spec/dummy/**/*
+    - vendor/**/*
+
+
+# ---------------------------------------------------------------------------
+#                                   Layout
+# ---------------------------------------------------------------------------
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+  IndentOneStep: true
+  SupportedStyles:
+    - case
+    - end
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/SpaceInsideBlockBraces:
+  EnforcedStyle: space
+  EnforcedStyleForEmptyBraces: no_space
+  SpaceBeforeBlockParameters: false
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+
+# ---------------------------------------------------------------------------
+#                                   Lint
+# ---------------------------------------------------------------------------
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+
+# ---------------------------------------------------------------------------
+#                                   Metrics
+# ---------------------------------------------------------------------------
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*_spec.rb
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+
+# ---------------------------------------------------------------------------
+#                                   Style
+# ---------------------------------------------------------------------------
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
+  Enabled: false
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
+
+Style/RescueModifier:
+  Exclude:
+    - spec/**/*_spec.rb
+
+Style/TrivialAccessors:
+  AllowPredicates: true
