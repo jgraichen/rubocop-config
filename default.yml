@@ -39,7 +39,7 @@ Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
 Layout/SpaceInsideBlockBraces:
-  EnforcedStyle: space
+  EnforcedStyle: no_space
   EnforcedStyleForEmptyBraces: no_space
   SpaceBeforeBlockParameters: false
 
@@ -56,7 +56,6 @@ Lint/RaiseException:
 
 Lint/StructNewOverride:
   Enabled: true
-
 
 # ---------------------------------------------------------------------------
 #                                   Metrics
