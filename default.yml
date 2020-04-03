@@ -92,6 +92,9 @@ RSpec/ContextWording:
 RSpec/ExpectInHook:
   Enabled: false
 
+RSpec/MultipleExpectations:
+  Enabled: false
+
 
 # ---------------------------------------------------------------------------
 #                                   Style
