@@ -69,6 +69,9 @@ Metrics/BlockLength:
   Exclude:
     - spec/**/*_spec.rb
 
+Metrics/ClassLength:
+  Enabled: false
+
 Metrics/CyclomaticComplexity:
   Enabled: false
 
