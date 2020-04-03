@@ -98,6 +98,9 @@ RSpec/ExpectInHook:
 RSpec/MultipleExpectations:
   Enabled: false
 
+RSpec/ScatteredSetup:
+  Enabled: false
+
 
 # ---------------------------------------------------------------------------
 #                                   Style
