@@ -1,19 +1,20 @@
+# vim: ft=yaml
+
 require:
   - rubocop-performance
   - rubocop-rspec
 
 AllCops:
   Include:
-    - '**/*.rb'
-    - '**/*.gemspec'
-    - '**/Gemfile'
-    - '**/Rakefile'
+    - "**/*.rb"
+    - "**/*.gemspec"
+    - "**/Gemfile"
+    - "**/Rakefile"
   Exclude:
     - bin/**/*
     - db/schema.rb
     - spec/dummy/**/*
     - vendor/**/*
-
 
 # ---------------------------------------------------------------------------
 #                                   Layout
@@ -46,7 +47,6 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
-
 # ---------------------------------------------------------------------------
 #                                   Lint
 # ---------------------------------------------------------------------------
@@ -56,7 +56,6 @@ Lint/RaiseException:
 
 Lint/StructNewOverride:
   Enabled: true
-
 
 # ---------------------------------------------------------------------------
 #                                   Metrics
@@ -81,7 +80,6 @@ Metrics/MethodLength:
 Metrics/PerceivedComplexity:
   Enabled: false
 
-
 # ---------------------------------------------------------------------------
 #                                   RSpec
 # ---------------------------------------------------------------------------
@@ -100,7 +98,6 @@ RSpec/MultipleExpectations:
 
 RSpec/ScatteredSetup:
   Enabled: false
-
 
 # ---------------------------------------------------------------------------
 #                                   Style
