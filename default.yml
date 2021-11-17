@@ -119,6 +119,9 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: false
 
+Style/IfUnlessModifier:
+  Enabled: false
+
 Style/RaiseArgs:
   EnforcedStyle: compact
 
