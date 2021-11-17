@@ -2,19 +2,19 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'my-rubocop'
-  spec.version       = '0.0.0'
+  spec.version       = '1.0.0'
   spec.authors       = ['Jan Graichen']
   spec.email         = ['jgraichen@altimos.de']
 
-  spec.summary       = 'Personal shared rubocop config'
-  spec.homepage      = 'https://github.com/jgraichen/rubocop-common'
+  spec.summary       = 'Shared rubocop config'
+  spec.homepage      = 'https://github.com/jgraichen/my-rubocop'
   spec.license       = 'MIT'
 
   spec.required_ruby_version = Gem::Requirement.new('>= 2.5.0')
 
   spec.metadata = {
     'allowed_push_host' => '.',
-    'rubygems_mfa_required' => 'true'
+    'rubygems_mfa_required' => 'true',
   }
 
   spec.files = %w[

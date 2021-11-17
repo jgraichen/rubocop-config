@@ -67,7 +67,8 @@ Metrics/AbcSize:
 
 Metrics/BlockLength:
   Exclude:
-    - spec/**/*_spec.rb
+    - "**/*.gemspec"
+    - "spec/**/*_spec.rb"
 
 Metrics/ClassLength:
   Enabled: false
@@ -86,6 +87,9 @@ Metrics/PerceivedComplexity:
 # ---------------------------------------------------------------------------
 
 RSpec/ContextWording:
+  Enabled: false
+
+RSpec/DescribedClass:
   Enabled: false
 
 RSpec/ExampleLength:
