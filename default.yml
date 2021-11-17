@@ -122,6 +122,27 @@ Style/HashTransformValues:
 Style/RaiseArgs:
   EnforcedStyle: compact
 
+# I do not like:
+#
+#     variable_name = if condition
+#                       a
+#                     else
+#                       b
+#                     end
+#
+# Therefore:
+#
+#     variable_name = begin
+#       if condition
+#         a
+#       else
+#         b
+#       end
+#     end
+#
+Style/RedundantBegin:
+  Enabled: false
+
 Style/RescueModifier:
   Exclude:
     - spec/**/*_spec.rb
