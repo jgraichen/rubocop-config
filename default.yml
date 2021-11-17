@@ -150,5 +150,14 @@ Style/RescueModifier:
   Exclude:
     - spec/**/*_spec.rb
 
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
 Style/TrivialAccessors:
   AllowPredicates: true
