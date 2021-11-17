@@ -15,6 +15,7 @@ AllCops:
     - db/schema.rb
     - spec/dummy/**/*
     - vendor/**/*
+  NewCops: enable
 
 # ---------------------------------------------------------------------------
 #                                   Layout
