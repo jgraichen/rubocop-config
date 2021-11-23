@@ -7,7 +7,7 @@ Shared rubocop configuration and defaults for my libraries and projects.
 ```
 # Gemfile
 
-gem 'my-rubocop', github: 'jgraichen/my-rubocop', ref: 'v1'
+gem 'my-rubocop', github: 'jgraichen/my-rubocop', ref: 'v2'
 ```
 
 ```
