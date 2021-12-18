@@ -10,6 +10,7 @@ AllCops:
     - "**/*.gemspec"
     - "**/Gemfile"
     - "**/Rakefile"
+    - "**/Appraisals"
   Exclude:
     - bin/**/*
     - db/schema.rb
@@ -82,6 +83,16 @@ Metrics/MethodLength:
 
 Metrics/PerceivedComplexity:
   Enabled: false
+
+# ---------------------------------------------------------------------------
+#                                  Naming
+# ---------------------------------------------------------------------------
+
+Naming/FileName:
+  Exclude:
+    - "**/Gemfile"
+    - "**/Rakefile"
+    - "**/Appraisals"
 
 # ---------------------------------------------------------------------------
 #                                   RSpec
