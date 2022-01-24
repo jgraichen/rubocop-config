@@ -1,4 +1,4 @@
-# My Rubocop
+# Shared Rubocop Configuration
 
 Shared rubocop configuration and defaults for my libraries and projects.
 
@@ -7,14 +7,14 @@ Shared rubocop configuration and defaults for my libraries and projects.
 ```ruby
 # Gemfile
 
-gem 'my-rubocop', github: 'jgraichen/my-rubocop', ref: 'v5'
+gem 'rubocop-config', github: 'jgraichen/rubocop-config', ref: 'v5'
 ```
 
 ```yaml
 # .rubocop.yml
 
 inherit_gem:
-  my-rubocop: default.yml
+  rubocop-config: default.yml
 
 AllCops:
   TargetRubyVersion: 2.5

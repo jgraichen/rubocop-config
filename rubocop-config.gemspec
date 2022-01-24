@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = 'my-rubocop'
+  spec.name          = 'rubocop-config'
   spec.version       = '1.0.0'
   spec.authors       = ['Jan Graichen']
   spec.email         = ['jgraichen@altimos.de']
 
   spec.summary       = 'Shared rubocop config'
-  spec.homepage      = 'https://github.com/jgraichen/my-rubocop'
+  spec.homepage      = 'https://github.com/jgraichen/rubocop-config'
   spec.license       = 'MIT'
 
   spec.required_ruby_version = Gem::Requirement.new('>= 2.5.0')
