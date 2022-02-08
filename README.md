@@ -7,7 +7,7 @@ Shared rubocop configuration and defaults for my libraries and projects.
 ```ruby
 # Gemfile
 
-gem 'rubocop-config', github: 'jgraichen/rubocop-config', ref: 'v7'
+gem 'rubocop-config', github: 'jgraichen/rubocop-config', ref: 'v7', require: false
 ```
 
 ```yaml
@@ -19,4 +19,5 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 2.5
   SuggestExtensions: False
+  NewCops: enable
 ```
