@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
     README.md
   ]
 
-  spec.add_runtime_dependency 'rubocop', '~> 1.42.0'
+  spec.add_runtime_dependency 'rubocop', '~> 1.43.0'
   spec.add_runtime_dependency 'rubocop-performance', '~> 1.15.0'
   spec.add_runtime_dependency 'rubocop-rspec', '~> 2.16.0'
 end
