@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/jgraichen/rubocop-config'
   spec.license       = 'MIT'
 
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.5.0')
+  spec.required_ruby_version = Gem::Requirement.new('>= 2.7.0')
 
   spec.metadata = {
     'allowed_push_host' => '.',
@@ -23,7 +23,10 @@ Gem::Specification.new do |spec|
     README.md
   ]
 
-  spec.add_runtime_dependency 'rubocop', '~> 1.56.0'
-  spec.add_runtime_dependency 'rubocop-performance', '~> 1.19.0'
-  spec.add_runtime_dependency 'rubocop-rspec', '~> 2.23.0'
+  spec.add_dependency 'rubocop', '~> 1.65.0'
+  spec.add_dependency 'rubocop-performance', '~> 1.21.1'
+  spec.add_dependency 'rubocop-rspec', '~> 3.0.2'
+  spec.add_dependency 'rubocop-capybara', '~> 2.21.0'
+  spec.add_dependency 'rubocop-factory_bot', '~> 2.26.1'
+  spec.add_dependency 'rubocop-rspec_rails', '~> 2.30.0'
 end

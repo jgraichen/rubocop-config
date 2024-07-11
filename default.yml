@@ -1,8 +1,11 @@
 # vim: ft=yaml
 
 require:
+  - rubocop-capybara
+  - rubocop-factory_bot
   - rubocop-performance
   - rubocop-rspec
+  - rubocop-rspec_rails
 
 AllCops:
   Include:
