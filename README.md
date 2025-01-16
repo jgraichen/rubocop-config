@@ -1,13 +1,13 @@
-# Shared Rubocop Configuration
+# Shared RuboCop Configuration
 
-Shared rubocop configuration and defaults for my libraries and projects.
+Shared RuboCop configuration and defaults for my libraries and projects.
 
 ## Usage
 
 ```ruby
 # Gemfile
 
-gem 'rubocop-config', github: 'jgraichen/rubocop-config', ref: 'v11', require: false
+gem 'rubocop-config', github: 'jgraichen/rubocop-config', tag: 'v13', require: false
 ```
 
 ```yaml
@@ -17,7 +17,7 @@ inherit_gem:
   rubocop-config: default.yml
 
 AllCops:
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 3.1
   SuggestExtensions: False
   NewCops: enable
 ```
