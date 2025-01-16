@@ -6,17 +6,10 @@
       customType: "regex",
       fileMatch: ["^.*\\.gemspec"],
       matchStrings: [
-        ".*add.*dependency '(?<depName>.*?)', '(?<currentValue>.*?)'",
+        ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?",
       ],
       datasourceTemplate: "rubygems",
-    },
-  ],
-  packageRules: [
-    {
-      description: 'Applies ":preserveSemverRanges" to the custom above manager. See: https://github.com/renovatebot/renovate/discussions/28090',
-      matchDatasources: ["rubygems"],
-      matchManagers: ["custom.regex"],
-      rangeStrategy: "replace",
+      versioningTemplate: "ruby",
     },
   ],
 }
