@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-config'
-  spec.version       = '12.0.0'
+  spec.version       = '13.0.0'
   spec.authors       = ['Jan Graichen']
   spec.email         = ['jgraichen@altimos.de']
 
