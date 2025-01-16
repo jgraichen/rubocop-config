@@ -1,0 +1,13 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["config:recommended", "schedule:weekly"],
+  regexManagers: [
+    {
+      fileMatch: ["^*.gemspec"],
+      matchStrings: [
+        ".*add.*dependency '(?<depName>.*?)', '(?<currentValue>.*?)'",
+      ],
+      datasourceTemplate: "rubygems",
+    },
+  ],
+}
