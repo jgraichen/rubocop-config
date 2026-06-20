@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubocop-config'
-  spec.version       = '14.0.0'
+  spec.version       = '15.0.0'
   spec.authors       = ['Jan Graichen']
   spec.email         = ['jgraichen@altimos.de']
 
@@ -23,10 +23,10 @@ Gem::Specification.new do |spec|
     README.md
   ]
 
-  spec.add_dependency 'rubocop', '~> 1.75.2'
-  spec.add_dependency 'rubocop-capybara', '~> 2.22.1'
-  spec.add_dependency 'rubocop-factory_bot', '~> 2.27.1'
-  spec.add_dependency 'rubocop-performance', '~> 1.25.0'
-  spec.add_dependency 'rubocop-rspec', '~> 3.5.0'
-  spec.add_dependency 'rubocop-rspec_rails', '~> 2.31.0'
+  spec.add_dependency 'rubocop', '~> 1.88.0'
+  spec.add_dependency 'rubocop-capybara', '~> 2.23.0'
+  spec.add_dependency 'rubocop-factory_bot', '~> 2.28.0'
+  spec.add_dependency 'rubocop-performance', '~> 1.26.1'
+  spec.add_dependency 'rubocop-rspec', '~> 3.10.2'
+  spec.add_dependency 'rubocop-rspec_rails', '~> 2.32.0'
 end
