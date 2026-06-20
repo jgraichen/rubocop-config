@@ -7,7 +7,7 @@ Shared RuboCop configuration and defaults for my libraries and projects.
 ```ruby
 # Gemfile
 
-gem 'rubocop-config', github: 'jgraichen/rubocop-config', tag: 'v13', require: false
+gem 'rubocop-config', github: 'jgraichen/rubocop-config', tag: 'v15', require: false
 ```
 
 ```yaml
