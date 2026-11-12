@@ -1,13 +1,13 @@
-# Shared RuboCop Configuration
+# Shared Robocop Configuration
 
-Shared RuboCop configuration and defaults for my libraries and projects.
+Shared Robocop configuration and defaults for my libraries and projects.
 
 ## Usage
 
 ```ruby
 # Gemfile
 
-gem 'rubocop-config', github: 'jgraichen/rubocop-config', tag: 'v15', require: false
+gem 'rubocop-config', github: 'jgraichen/rubocop-config', tag: 'v16', require: false
 ```
 
 ```yaml
