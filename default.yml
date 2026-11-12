@@ -35,6 +35,17 @@ Layout/CaseIndentation:
     - case
     - end
 
+# Align `end` with the start of the line for assignments, so that `case`
+# and `if` can be assigned without pushing the whole body to the right:
+#
+#     result = case value
+#       when 1 then :one
+#       else :other
+#     end
+#
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
